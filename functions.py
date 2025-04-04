@@ -38,7 +38,7 @@ api_key =  os.getenv("API_KEY")# Replace with your actual API key
 
 def get_chatbot_response(user_messages):
     """Sends user messages to the chatbot API and retrieves the response."""
-    messages=[{"role": "system", "content": "You are a helpful mental healt coach. User will ask questions related to mental health, yoga and meditation, your job is to answer to user questions politely ans keep the answer short."}]
+    messages=[{"role": "system", "content": "You are a helpful mental healt coach. User will ask questions related to mental health, yoga and meditation, your job is to answer to user questions politely ."}]
     messages.extend(user_messages)
     headers = {
         "Content-Type": "application/json",
