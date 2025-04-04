@@ -27,4 +27,4 @@ jobs:
 
       - name: Deploy Streamlit app (via Streamlit Sharing or custom script)
         run: |
-          streamlit run app.py
+          streamlit run Login.py
