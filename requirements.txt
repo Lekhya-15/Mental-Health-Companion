@@ -16,6 +16,7 @@ Jinja2==3.1.6
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
 MarkupSafe==3.0.2
+mysql-connector-python==9.2.0
 narwhals==1.33.0
 numpy==2.2.4
 packaging==24.2
@@ -36,6 +37,7 @@ six==1.17.0
 smmap==5.0.2
 SQLAlchemy==2.0.40
 streamlit==1.44.1
+streamlit-lottie==0.0.5
 tenacity==9.1.2
 toml==0.10.2
 tornado==6.4.2
